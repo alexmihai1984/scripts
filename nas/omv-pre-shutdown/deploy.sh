@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+SCRIPT_PATH="/usr/local/sbin/omv-pre-shutdown.sh"
 OVERRIDE_DIR="/etc/systemd/system/umount.target.d"
 OVERRIDE_FILE="$OVERRIDE_DIR/override.conf"
 
