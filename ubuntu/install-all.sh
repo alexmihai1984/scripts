@@ -2,6 +2,7 @@
 
 ./install/install-dysk.sh
 ./install/install-freelens.sh
+./install/install-ncdu.sh
 
 ./install/install-flatpak.sh
 
