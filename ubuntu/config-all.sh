@@ -1,4 +1,3 @@
 #!/bin/bash
 
-./config/fish.sh
 ./../../common/config/config/network-drives.sh
