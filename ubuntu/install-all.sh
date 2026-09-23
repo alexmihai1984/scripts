@@ -2,6 +2,7 @@
 
 ./install/install-antigravity.sh
 ./install/install-btop.sh
+./install/install-docker.sh
 ./install/install-dysk.sh
 ./install/install-extension-manager.sh
 ./install/install-freelens.sh
