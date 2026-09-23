@@ -3,6 +3,7 @@
 ./install/install-antigravity.sh
 ./install/install-btop.sh
 ./install/install-dysk.sh
+./install/install-extension-manager.sh
 ./install/install-freelens.sh
 ./install/install-handbrake.sh
 ./install/install-ncdu.sh
