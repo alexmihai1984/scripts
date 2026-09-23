@@ -7,6 +7,7 @@
 ./install/install-eza.sh
 ./install/install-extension-manager.sh
 ./install/install-freelens.sh
+./install/install-gtop.sh
 ./install/install-handbrake.sh
 ./install/install-iotop.sh
 ./install/install-ncdu.sh
