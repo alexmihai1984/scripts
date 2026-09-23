@@ -8,6 +8,7 @@
 ./install/install-extension-manager.sh
 ./install/install-freelens.sh
 ./install/install-handbrake.sh
+./install/install-iotop.sh
 ./install/install-ncdu.sh
 
 ./install/install-flatpak.sh
