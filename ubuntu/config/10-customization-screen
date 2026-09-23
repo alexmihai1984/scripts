@@ -1,0 +1,5 @@
+[com/ubuntu/login-screen]
+# needs .jpg or.png
+background-picture-uri='file:///usr/share/backgrounds/login-wallpaper.png'
+background-size='cover'
+background-repeat='no-repeat'
