@@ -1,10 +1,12 @@
 #!/bin/bash
 
 ./install/install-discord.sh
+./install/install-foot.sh
 ./install/install-freelens.sh
 ./install/install-helm.sh
 ./install/install-k9s.sh
 ./install/install-kubectl.sh
+./install/install-manim.sh
 ./install/install-mtr.sh
 ./install/install-neofetch.sh
 ./install/install-netcat.sh
