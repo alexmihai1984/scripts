@@ -21,6 +21,7 @@
 ./install/install-rust.sh
 ./install/install-sdkman.fish
 ./install/install-vscode.sh
+./install/install-zellij.sh
 
 ./install/install-angular.fish
 
