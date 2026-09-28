@@ -16,6 +16,7 @@
 ./install/install-iotop.sh
 ./install/install-k9s.sh
 ./install/install-kubectl.sh
+./install/install-lazyvim.sh
 ./install/install-libre.sh
 ./install/install-localsend.sh
 ./install/install-lsof.sh
