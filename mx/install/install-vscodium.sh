@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt install wget gpg
 
 wget -qO- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
