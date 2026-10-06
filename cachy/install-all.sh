@@ -32,6 +32,7 @@
 ./install/install-printer.sh
 ./install/install-rust.sh
 ./install/install-sdkman.fish
+./install/install-steam.sh
 ./install/install-sublime.sh
 ./install/install-superfile.sh
 ./install/install-tmux.sh
