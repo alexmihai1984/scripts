@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt -y install fuse3
+
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
 # To set up Google Drive:
