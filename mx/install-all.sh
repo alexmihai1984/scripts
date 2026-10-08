@@ -6,5 +6,6 @@
 ./install/install-docker.sh
 ./install/install-dysk.sh
 ./install/install-eza.sh
+./install/install-freelens.sh
 ./install/install-steam.sh
 ./install/install-vscodium.sh
