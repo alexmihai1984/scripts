@@ -2,6 +2,7 @@
 
 sudo apt install -y rclone fuse3
 
+# To set up Google Drive:
 # Run: rclone config
 # n) New remote
 # name> gdrive
