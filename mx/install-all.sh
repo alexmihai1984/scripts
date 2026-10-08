@@ -8,5 +8,7 @@
 ./install/install-eza.sh
 ./install/install-freelens.sh
 ./install/install-helm.sh
+./install/install-kubectl.sh
+./install/install-rclone.sh
 ./install/install-steam.sh
 ./install/install-vscodium.sh
