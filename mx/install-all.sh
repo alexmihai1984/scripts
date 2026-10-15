@@ -11,6 +11,7 @@
 ./install/install-helm.sh
 ./install/install-iotop.sh
 ./install/install-kubectl.sh
+./install/install-ncdu.sh
 ./install/install-rclone.sh
 ./install/install-steam.sh
 ./install/install-vscodium.sh
