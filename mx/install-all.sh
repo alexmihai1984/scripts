@@ -9,6 +9,7 @@
 ./install/install-freelens.sh
 ./install/install-handbrake.sh
 ./install/install-helm.sh
+./install/install-iotop.sh
 ./install/install-kubectl.sh
 ./install/install-rclone.sh
 ./install/install-steam.sh
