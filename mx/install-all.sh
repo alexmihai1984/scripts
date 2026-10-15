@@ -7,6 +7,7 @@
 ./install/install-dysk.sh
 ./install/install-eza.sh
 ./install/install-freelens.sh
+./install/install-handbrake.sh
 ./install/install-helm.sh
 ./install/install-kubectl.sh
 ./install/install-rclone.sh
