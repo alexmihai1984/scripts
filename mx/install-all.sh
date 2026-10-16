@@ -14,5 +14,6 @@
 ./install/install-ncdu.sh
 ./install/install-nethogs.sh
 ./install/install-rclone.sh
+./install/install-redshift.sh
 ./install/install-steam.sh
 ./install/install-vscodium.sh
