@@ -17,3 +17,6 @@
 ./install/install-redshift.sh
 ./install/install-steam.sh
 ./install/install-vscodium.sh
+
+./install/install-flatpak.sh
+./install/install-easyeffects.sh
