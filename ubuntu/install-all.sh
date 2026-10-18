@@ -11,7 +11,7 @@
 ./install/install-handbrake.sh
 ./install/install-iotop.sh
 ./install/install-ncdu.sh
-./install/install-nethog.sh
+./install/install-nethogs.sh
 ./install/install-rclone.sh
 
 ./install/install-flatpak.sh
