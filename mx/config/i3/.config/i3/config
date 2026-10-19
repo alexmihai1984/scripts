@@ -214,3 +214,6 @@ workspace 8 output DP-1-1
 workspace 10 output DP-1-1
 
 bindsym $mod+x exec i3lock
+
+assign [instance="crx_cinhimbnkkaeohfgghhklpknlkffjgod"] $ws3
+exec --no-startup-id /opt/google/chrome/google-chrome --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod
