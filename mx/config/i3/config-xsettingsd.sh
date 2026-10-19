@@ -10,6 +10,6 @@ CONFIG_DIR="$HOME/.config/xsettingsd"
 mkdir -p $CONFIG_DIR
 
 # Copy the xsettingsd.conf file
-cp "$SCRIPT_DIR"/../.config/xsettingsd/* $CONFIG_DIR
+cp "$SCRIPT_DIR"/.config/xsettingsd/* $CONFIG_DIR
 
 echo "Successfully configured xsettingsd."
