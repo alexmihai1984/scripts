@@ -49,7 +49,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -213,7 +213,9 @@ workspace 6 output DP-1-1
 workspace 8 output DP-1-1
 workspace 10 output DP-1-1
 
+# Lock screen
 bindsym $mod+x exec i3lock
 
 assign [instance="crx_cinhimbnkkaeohfgghhklpknlkffjgod"] $ws3
 exec --no-startup-id /opt/google/chrome/google-chrome --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod
+
