@@ -216,6 +216,15 @@ workspace 10 output DP-1-1
 # Lock screen
 bindsym $mod+x exec i3lock
 
+# YouTube Music workspace
 assign [instance="crx_cinhimbnkkaeohfgghhklpknlkffjgod"] $ws3
 exec --no-startup-id /opt/google/chrome/google-chrome --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod
 
+# Calculator floating
+for_window [class="Galculator"] floating enable
+
+# Bluetooth floating
+for_window [class="Blueman-manager"] floating enable
+
+# Connect bluetooth speakers
+exec --no-startup-id sh -c 'sleep 3; bluetoothctl connect 4A:CF:34:D5:4A:EF'
