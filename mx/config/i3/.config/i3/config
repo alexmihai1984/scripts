@@ -226,5 +226,8 @@ for_window [class="Galculator"] floating enable
 # Bluetooth floating
 for_window [class="Blueman-manager"] floating enable
 
+# Volume floating
+for_window [class="pavucontrol"] floating enable
+
 # Connect bluetooth speakers
 exec --no-startup-id sh -c 'sleep 3; bluetoothctl connect 4A:CF:34:D5:4A:EF'
