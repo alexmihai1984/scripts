@@ -16,6 +16,7 @@
 ./install/install-rclone.sh
 ./install/install-redshift.sh
 ./install/install-steam.sh
+./install/install-superfile.sh
 ./install/install-vscodium.sh
 
 ./install/install-flatpak.sh
