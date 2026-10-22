@@ -243,4 +243,10 @@ for_window [class="pavucontrol"] floating enable
 # Connect bluetooth speakers
 exec --no-startup-id sh -c 'sleep 3; bluetoothctl connect 4A:CF:34:D5:4A:EF'
 
+# Window gaps
+# window marging
+gaps inner 5
+# screen padding
+# gaps outer 2
+
 # todo: colors
