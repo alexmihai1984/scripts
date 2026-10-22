@@ -216,8 +216,10 @@ workspace $ws8 output DP-1-1
 workspace $ws10 output DP-1-1
 
 # Lock screen
-bindsym $mod+x exec i3lock
-bindsym $mod+Mod1+l exec --no-startup-id i3lock --color "#2e422f"
+# bindsym $mod+x exec i3lock --color "#2e422f"
+# bindsym $mod+Mod1+l exec --no-startup-id i3lock --color "#2e422f"
+bindsym $mod+x exec --no-startup-id ~/.config/i3lock/lock-screen.sh
+bindsym $mod+Mod1+l exec --no-startup-id ~/.config/i3lock/lock-screen.sh
 
 # Shutdown
 bindsym $mod+Mod1+s exec --no-startup-id systemctl poweroff
