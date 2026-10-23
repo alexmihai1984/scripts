@@ -12,4 +12,9 @@ mkdir -p $CONFIG_DIR
 # Copy the config file
 cp "$SCRIPT_DIR"/.config/i3blocks/i3blocks.conf $CONFIG_DIR
 
+mkdir -p "$CONFIG_DIR"/scripts
+
+# Copy the scripts
+cp "$SCRIPT_DIR"/.config/i3blocks/scripts/* "$CONFIG_DIR"/scripts
+
 echo "Successfully configured i3blocks."
