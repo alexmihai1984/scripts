@@ -256,6 +256,9 @@ gaps inner 5
 # screen padding
 # gaps outer 2
 
+# enable window icons for all windows
+for_window [all] title_window_icon on
+
 # todo: colors
 # todo: blocks customization
 # todo: figure out screenshot to clipboard
