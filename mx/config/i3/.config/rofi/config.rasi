@@ -1,0 +1,20 @@
+@theme "/home/alex/.local/share/rofi/themes/squared-everforest.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font Medium 20";
+}
+
+configuration {
+    display-drun: "Applications: ";
+    display-window: "Windows: ";
+    drun-display-format: "{icon} {name}";
+    modi: "window,run,drun";
+    show-icons: true;
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 300px;
+    width: 1000px;
+}
