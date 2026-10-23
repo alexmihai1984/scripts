@@ -21,3 +21,6 @@ style = "Italic"
 [font.bold_italic]
 family = "JetBrainsMono Nerd Font"
 style = "Bold Italic"
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
