@@ -21,24 +21,24 @@ if [[ "$status" == "Discharging" ]]; then
     [[ -n "$time" ]] && text+="  $time"
 
 elif [[ "$status" == "Charging" ]]; then
-    text+="    "
+    text+="      "
 fi
 
 printf '%s\n' "$text"
-printf '%s\n' "$text"
+# printf '%s\n' "$text"
 
-if [[ "$status" == "Discharging" ]]; then
-    if (( capacity < 20 )); then
-        printf '#FF0000\n'
-    elif (( capacity < 40 )); then
-        printf '#FFAE00\n'
-    elif (( capacity < 60 )); then
-        printf '#FFF600\n'
-    elif (( capacity < 85 )); then
-        printf '#A8FF00\n'
-    fi
+# if [[ "$status" == "Discharging" ]]; then
+#     if (( capacity < 20 )); then
+#         printf '#FF0000\n'
+#     elif (( capacity < 40 )); then
+#         printf '#FFAE00\n'
+#     elif (( capacity < 60 )); then
+#         printf '#FFF600\n'
+#     elif (( capacity < 85 )); then
+#         printf '#A8FF00\n'
+#     fi
 
-    if (( capacity < 5 )); then
-        exit 33
-    fi
-fi
+#     if (( capacity < 5 )); then
+#         exit 33
+#     fi
+# fi

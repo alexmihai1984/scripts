@@ -12,11 +12,11 @@ idle2=$((idle2 + iowait2))
 
 usage=$(( (total2 - total - (idle2 - idle)) * 100 / (total2 - total) ))
 
-printf "%d%%\n" "$usage"
-printf "%d%%\n" "$usage"
+printf "%3d%%\n" "$usage"
+# printf "%d%%\n" "$usage"
 
-if (( usage >= 80 )); then
-    printf "#FF0000\n"
-elif (( usage >= 50 )); then
-    printf "#FFFC00\n"
-fi
+# if (( usage >= 80 )); then
+#     printf "#FF0000\n"
+# elif (( usage >= 50 )); then
+#     printf "#FFFC00\n"
+# fi
