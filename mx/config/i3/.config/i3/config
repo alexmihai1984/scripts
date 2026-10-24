@@ -185,11 +185,32 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# class                 border  bground text    indicator child_border
+client.focused          #506A68 #506A68 #FFFFFF #5BF486   #285577
+client.focused_inactive #5F676A #5F676A #BCC4C9 #484E50   #5F676A
+client.unfocused        #222222 #222222 #888888 #292D2E   #222222
+client.urgent           #900000 #900000 #BCC4C9 #900000   #900000
+client.placeholder      #0C0C0C #0C0C0C #BCC4C9 #000000   #0C0C0C
+
+client.background       #BCC4C9
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         position top
         status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
+
+        colors {
+                background #1A2023
+                statusline #BCC4C9
+                separator  #666666
+
+                focused_workspace  #506A68 #506A68 #FFFFFF
+                active_workspace   #333333 #222222 #BCC4C9
+                inactive_workspace #333333 #222222 #888888
+                urgent_workspace   #2F343A #900000 #BCC4C9
+                binding_mode       #2F343A #900000 #BCC4C9
+        }
 }
 
 # Theme Engine
@@ -259,6 +280,5 @@ gaps inner 5
 # enable window icons for all windows
 for_window [all] title_window_icon on
 
-# todo: colors
 # todo: blocks customization
 # todo: figure out screenshot to clipboard

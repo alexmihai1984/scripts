@@ -2,6 +2,8 @@
 
 * {
     font: "JetBrainsMono Nerd Font Medium 20";
+    accent-color:     #506A68;
+    fg0:     #BCC4C9;
 }
 
 configuration {
