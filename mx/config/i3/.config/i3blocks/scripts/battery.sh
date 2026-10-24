@@ -22,6 +22,8 @@ if [[ "$status" == "Discharging" ]]; then
 
 elif [[ "$status" == "Charging" ]]; then
     text+="      "
+else
+    text+="      "
 fi
 
 printf '%s\n' "$text"

@@ -280,5 +280,4 @@ gaps inner 5
 # enable window icons for all windows
 for_window [all] title_window_icon on
 
-# todo: blocks customization
 # todo: figure out screenshot to clipboard
