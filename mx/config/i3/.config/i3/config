@@ -118,11 +118,11 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1   "
 set $ws2 "2   "
-set $ws3 "3   "
+set $ws3 "3"
 set $ws4 "4   "
 set $ws5 "5"
 set $ws6 "6"
-set $ws7 "7"
+set $ws7 "7   "
 set $ws8 "8"
 set $ws9 "9   "
 set $ws10 "10"
@@ -248,13 +248,17 @@ bindsym $mod+Mod1+s exec --no-startup-id systemctl poweroff
 # Restart
 bindsym $mod+Mod1+r exec --no-startup-id systemctl reboot
 
-# YouTube Music workspace
+# Chrome workspace
 assign [instance="google-chrome"] $ws2
 exec --no-startup-id google-chrome-stable
 
-# Chrome workspace
-assign [instance="crx_cinhimbnkkaeohfgghhklpknlkffjgod"] $ws3
+# YouTube Music workspace
+assign [instance="crx_cinhimbnkkaeohfgghhklpknlkffjgod"] $ws7
 exec --no-startup-id /opt/google/chrome/google-chrome --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod
+
+# WhatsApp workspace
+assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] $ws9
+exec --no-startup-id /opt/google/chrome/google-chrome --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
 
 # Calculator floating
 for_window [class="Galculator"] floating enable
