@@ -13,8 +13,10 @@
 ./install/install-helm.sh
 ./install/install-iotop.sh
 ./install/install-kubectl.sh
+./install/install-lazyvim.sh
 ./install/install-ncdu.sh
 ./install/install-nethogs.sh
+./install/install-node.sh
 ./install/install-rclone.sh
 ./install/install-redshift.sh
 ./install/install-steam.sh
