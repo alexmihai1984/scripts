@@ -27,20 +27,20 @@ else
 fi
 
 printf '%s\n' "$text"
-# printf '%s\n' "$text"
+printf '%s\n' "$text"
 
-# if [[ "$status" == "Discharging" ]]; then
-#     if (( capacity < 20 )); then
-#         printf '#FF0000\n'
-#     elif (( capacity < 40 )); then
-#         printf '#FFAE00\n'
-#     elif (( capacity < 60 )); then
-#         printf '#FFF600\n'
-#     elif (( capacity < 85 )); then
-#         printf '#A8FF00\n'
-#     fi
+if [[ "$status" == "Discharging" ]]; then
+    if (( capacity < 20 )); then
+        printf '#fb4934\n'
+    elif (( capacity < 40 )); then
+        printf '#fe8019\n'
+    elif (( capacity < 60 )); then
+        printf '#fabd2f\n'
+    elif (( capacity < 85 )); then
+        printf '#8ec07c\n'
+    fi
 
-#     if (( capacity < 5 )); then
-#         exit 33
-#     fi
-# fi
+    if (( capacity < 5 )); then
+        exit 33
+    fi
+fi
