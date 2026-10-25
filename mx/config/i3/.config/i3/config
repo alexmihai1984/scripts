@@ -252,6 +252,9 @@ bindsym $mod+Mod1+s exec --no-startup-id systemctl poweroff
 # Restart
 bindsym $mod+Mod1+r exec --no-startup-id systemctl reboot
 
+# Color picker
+bindsym $mod+Mod1+c exec --no-startup-id sh -c 'gpick -o -s | xclip -selection clipboard'
+
 # Chrome workspace
 assign [instance="google-chrome"] $ws2
 exec --no-startup-id google-chrome-stable
