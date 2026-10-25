@@ -7,8 +7,8 @@ status=$(cat "$BAT/status")
 text="${capacity}%"
 
 if [[ "$status" == "Discharging" ]]; then
-    time=$(acpi -b | awk -F', ' '
-        /^Battery 0:/ && /Discharging/ {
+    time=$(acpi -b | awk -F', ' -v cap="$capacity" '
+        /Discharging/ && $2 == cap "%" {
             if ($3 ~ /^[0-9]+:[0-9]+:[0-9]+ remaining/) {
                 sub(/ remaining.*/, "", $3)
                 split($3, t, ":")
