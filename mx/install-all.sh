@@ -6,6 +6,7 @@
 ./install/install-docker.sh
 ./install/install-dysk.sh
 ./install/install-eza.sh
+./install/install-flameshot.sh
 ./install/install-freelens.sh
 ./install/install-handbrake.sh
 ./install/install-helm.sh
