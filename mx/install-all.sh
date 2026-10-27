@@ -8,6 +8,7 @@
 ./install/install-eza.sh
 ./install/install-flameshot.sh
 ./install/install-gpick.sh
+./install/install-fdfind.sh
 ./install/install-freelens.sh
 ./install/install-handbrake.sh
 ./install/install-helm.sh
@@ -20,6 +21,7 @@
 ./install/install-node.sh
 ./install/install-rclone.sh
 ./install/install-redshift.sh
+./install/install-ripgrep.sh
 ./install/install-steam.sh
 ./install/install-stress-ng.sh
 ./install/install-superfile.sh
