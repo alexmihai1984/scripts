@@ -23,6 +23,7 @@
 ./install/install-stress-ng.sh
 ./install/install-superfile.sh
 ./install/install-vscodium.sh
+./install/install-zellij.sh
 
 ./install/install-flatpak.sh
 ./install/install-easyeffects.sh
