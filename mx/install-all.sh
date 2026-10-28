@@ -7,6 +7,7 @@
 ./install/install-dysk.sh
 ./install/install-eza.sh
 ./install/install-flameshot.sh
+./install/install-go.sh
 ./install/install-gpick.sh
 ./install/install-fdfind.sh
 ./install/install-freelens.sh
