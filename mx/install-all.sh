@@ -33,3 +33,4 @@
 
 ./install/install-flatpak.sh
 ./install/install-easyeffects.sh
+./install/install-discord.sh
