@@ -25,6 +25,7 @@
 ./install/install-rclone.sh
 ./install/install-redshift.sh
 ./install/install-ripgrep.sh
+./install/install-sdkman.sh
 ./install/install-steam.sh
 ./install/install-stress-ng.sh
 ./install/install-superfile.sh
